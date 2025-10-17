@@ -1,0 +1,42 @@
+body {
+    background-color: #151515;
+    font-family:Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace
+}
+
+.container {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 60px;
+}
+
+a {
+    color: greenyellow;
+    text-decoration:none;
+}
+
+a:visited {
+    color:greenyellow;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    color: #d0d0d0;
+}
+
+.link-icon {
+    width: 20px; /* Adjust width as needed */
+    height: 20px; /* Adjust height as needed */
+    margin-right: 5px; /* Space between icon and link text */
+}
+
+
