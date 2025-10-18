@@ -1,42 +1,41 @@
 body {
-    background-color: #151515;
-    font-family:Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace
+    background-color: #0D1117;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #e0e0e0;
+    font-size: 18px;
 }
 
 .container {
     text-align: center;
-    margin-top: 40px;
-    font-size: 20px;
+    width: 300px;
+    padding: 30px;
 }
 
 .links {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding-bottom: 60px;
+    display: block;
+    background-color:#0c0c0c;
+    padding: 15px;
+    margin: 10px 0;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
 }
 
-a {
-    color: greenyellow;
-    text-decoration:none;
+.links:hover {
+    background-color: black;
 }
 
-a:visited {
-    color:greenyellow;
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
 }
 
-a:hover {
-    text-decoration: underline;
+.links i {
+    margin-right: 10px;
 }
-
-h1 {
-    color: #d0d0d0;
-}
-
-.link-icon {
-    width: 20px; /* Adjust width as needed */
-    height: 20px; /* Adjust height as needed */
-    margin-right: 5px; /* Space between icon and link text */
-}
-
-
