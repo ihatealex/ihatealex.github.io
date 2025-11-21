@@ -22,6 +22,13 @@ a:hover {
     font-size: 20px;
 }
 
+.container img {
+    width: 100%;  
+    height: auto; 
+    max-width: 750px;
+}
+
+
 .h2-link {
     color: #4493F8;
     text-decoration: none;
