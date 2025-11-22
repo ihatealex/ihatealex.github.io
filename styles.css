@@ -29,19 +29,19 @@ a:hover {
 }
 
 
-.h2-link {
+.blue-link {
     color: #4493F8;
     text-decoration: none;
 
 }
 
-.h2-link:visited {
+.blue-link:visited {
     color: #4493F8;
     text-decoration: none;
 
 }
 
-.h2-link:hover {
+.blue-link-link:hover {
     color: #4493F8;
     text-decoration: underline;
 }
